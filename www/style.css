@@ -1,3 +1,33 @@
-h1 {
-  color: rgba(238, 255, 0, 0.397);
+body {
+  font-family: "Verdana", sans-serif;
+  margin :10px 50px 10px 50px;
+  background-color: #c3c3c3;
+}
+body > header {
+  background-color: #cccccc;
+}
+section {
+  background-color: #4e4848;
+}
+nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  background-color: #627175
+}
+
+nav li {
+  display:inline-block;
+  width: 180px;
+  height: 40px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  line-height: 40px
+  border-right: 1px solid #cccccc;
+}
+nav li a {
+  text-decoration: none;
+  color:#eee5e5;
+
 }
