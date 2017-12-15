@@ -7,7 +7,8 @@ body > header {
   background-color: #cccccc;
 }
 section {
-  background-color: #4e4848;
+  background-color: #ffffff;
+  
 }
 nav ul {
   padding: 0px;
@@ -23,11 +24,80 @@ nav li {
   margin: 0px;
   padding: 0px;
   text-align: center;
-  line-height: 40px
+  line-height: 40px;
   border-right: 1px solid #cccccc;
 }
 nav li a {
   text-decoration: none;
   color:#eee5e5;
 
+}
+#article {
+  background-image: url("images/photo1.jpeg");
+  background-position: left center;
+  background-repeat: no-repeat;
+
+}
+.section1 {
+  display:flex;
+}
+.boite1 {
+  background-color: #a9aaac;
+  background-image: url("images/photo1.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+.boite2 {
+  background-color: #bdbdeb;
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: auto;
+}
+.footer {clear: both;
+}
+.section2 {display: flex;
+}
+.s2b1 {
+  width: 20%;
+  height: 250px;
+  border: 2px dotted;
+  text-align: center;
+}
+.s2b2 {
+  width: 20%;
+  height: 250px;
+  border: 2px dotted;
+  text-align: center;
+}
+.s2b3 {
+  width: 20%;
+  height: 250px;
+  border: 2px dotted;
+  text-align: center;
+}
+.s2b4 {
+  width: 20%;
+  height: 250px;
+  border: 2px dotted;
+  text-align: center;
+}
+.s2b5 {
+  width: 20%;
+  height: 250px;
+  border: 2px dotted;
+  text-align: center;
+}
+.section3 {
+  display: flex;
+}
+.s3b1 {
+  width: 20%;
+}
+.s3b2 {
+  width: 80%;
 }
