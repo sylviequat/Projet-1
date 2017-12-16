@@ -10,27 +10,47 @@ section {
   background-color: #ffffff;
   
 }
-nav ul {
-  padding: 0px;
-  margin: 0px;
-  list-style-type: none;
-  background-color: #627175
+#menu ul {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+  text-align:center; 
 }
-
-nav li {
-  display:inline-block;
-  width: 180px;
-  height: 40px;
-  margin: 0px;
-  padding: 0px;
-  text-align: center;
-  line-height: 40px;
-  border-right: 1px solid #cccccc;
+#menu li {
+  float: left;
+  margin: auto;
+  padding: 0;
+  background-color: black;
 }
-nav li a {
+#menu li a {
+  display:block;
+  width: 100px;
+  color: white;
   text-decoration: none;
-  color:#eee5e5;
-
+  padding: 5px;
+}
+#menu ul li a {
+  width: auto;
+  padding: 10px;
+}
+#menu li a:hover {
+  color: #FFD700
+}
+#menu ul li ul {
+  display: none;
+}
+#menu ul li:hover ul {
+  display: block;
+} 
+#menu li:hover ul li {
+  float:none
+}
+#menu li ul {
+  position: absolute;
+}
+.clear {
+  clear: both;
+  float: none;
 }
 #article {
   background-image: url("images/photo1.jpeg");
@@ -42,7 +62,6 @@ nav li a {
   display:flex;
 }
 .boite1 {
-  background-color: #a9aaac;
   background-image: url("images/photo1.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -52,44 +71,47 @@ nav li a {
   margin: auto;
 }
 .boite2 {
-  background-color: #bdbdeb;
   float: left;
   width: 300px;
   height: 200px;
   margin: auto;
-}
-.footer {clear: both;
+  border: 1px solid;
+  border-radius: 10px;
 }
 .section2 {display: flex;
 }
 .s2b1 {
   width: 20%;
   height: 250px;
-  border: 2px dotted;
+ 
   text-align: center;
 }
 .s2b2 {
   width: 20%;
   height: 250px;
-  border: 2px dotted;
+  border: 1px solid;
+  border-radius: 10px;
   text-align: center;
 }
 .s2b3 {
   width: 20%;
   height: 250px;
-  border: 2px dotted;
+  border: 1px solid;
+  border-radius: 10px;
   text-align: center;
 }
 .s2b4 {
   width: 20%;
   height: 250px;
-  border: 2px dotted;
+  border: 1px solid;
+  border-radius: 10px;
   text-align: center;
 }
 .s2b5 {
   width: 20%;
   height: 250px;
-  border: 2px dotted;
+  border: 1px solid;
+  border-radius: 10px;
   text-align: center;
 }
 .section3 {
@@ -100,4 +122,8 @@ nav li a {
 }
 .s3b2 {
   width: 80%;
+}
+
+.footer {
+  display: flex;
 }
