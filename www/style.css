@@ -18,8 +18,8 @@ section {
 }
 #menu li {
   float: left;
-  margin: auto;
-  padding: 0;
+  margin: 1px; 
+  padding: 10px;
   background-color: black;
 }
 #menu li a {
@@ -74,16 +74,31 @@ section {
   float: left;
   width: 300px;
   height: 200px;
-  margin: auto;
   border: 1px solid;
   border-radius: 10px;
+  overflow: scroll;
+}
+.boite2 header {
+  background-color: rgb(83, 168, 248);
+  align: center; 
 }
 .section2 {display: flex;
+}
+.bouton a {
+  display:block;
+  width: 150px;
+  line-height: auto;
+  text-align: center;
+  background-color: rgb(134, 26, 26);
+  color:white;
+  text-decoration:none;
+}
+.bouton a:hover {
+  background-color: red;
 }
 .s2b1 {
   width: 20%;
   height: 250px;
- 
   text-align: center;
 }
 .s2b2 {
@@ -126,4 +141,9 @@ section {
 
 .footer {
   display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
 }
