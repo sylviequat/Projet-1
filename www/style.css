@@ -6,6 +6,9 @@ body {
 body > header {
   background-color: #cccccc;
 }
+li {
+  list-style-type:none;
+}
 section {
   background-color: #ffffff;
   
@@ -62,18 +65,16 @@ section {
   display:flex;
 }
 .boite1 {
-  background-image: url("images/photo1.jpeg");
-  background-position: center center;
-  background-repeat: no-repeat;
+  background-color: rgb(83, 168, 248);
   float: left;
-  width: 300px;
-  height: 200px;
+  width: 632px;
+  height: 345px;
   margin: auto;
 }
 .boite2 {
   float: left;
   width: 300px;
-  height: 200px;
+  height: 345px;
   border: 1px solid;
   border-radius: 10px;
   overflow: scroll;
@@ -100,38 +101,49 @@ section {
   background-color: red;
 }
 .s2b1 {
-  width: 20%;
+  width: 200px;
   height: 250px;
   text-align: center;
+  margin-top: 5px;
 }
 .s2b2 {
-  width: 20%;
+  width: 230px;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
 .s2b3 {
-  width: 20%;
+  width: 220px;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
 .s2b4 {
-  width: 20%;
+  width: 220px;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
 .s2b5 {
-  width: 20%;
+  width: 220px;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
+.s2b51 {
+  display: flex;
+  position: row;
+  align-items: center;
+  margin-left: 30px;
+}
+.S2b51 h4 {
+  margin: 0px 0px 0px 10px;
+}
+
 .section3 {
   display: flex;
 }
@@ -146,6 +158,7 @@ section {
   display: flex;
   justify-content: space-between;
 }
+
 .footer a {
   color: black;
   text-decoration: none;
