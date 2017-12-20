@@ -37,7 +37,7 @@ section {
   padding: 10px;
 }
 #menu li a:hover {
-  color: #FFD700
+  color: #FFD700;
 }
 #menu ul li ul {
   display: none;
@@ -46,7 +46,7 @@ section {
   display: block;
 } 
 #menu li:hover ul li {
-  float:none
+  float:none;
 }
 #menu li ul {
   position: absolute;
@@ -63,13 +63,14 @@ section {
 }
 .section1 {
   display:flex;
+  justify-content: space-around;
 }
 .boite1 {
   background-color: rgb(83, 168, 248);
   float: left;
   width: 632px;
   height: 345px;
-  margin: auto;
+  margin: 0;
 }
 .boite2 {
   float: left;
@@ -77,11 +78,12 @@ section {
   height: 345px;
   border: 1px solid;
   border-radius: 10px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
-.boite2 header {
-  background-color: rgb(83, 168, 248);
-  align: center; 
+.boite2header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(83, 168, 248); 
 }
 .section2 {display: flex;
 }
@@ -101,34 +103,34 @@ section {
   background-color: red;
 }
 .s2b1 {
-  width: 200px;
+  width: 20%;
   height: 250px;
   text-align: center;
   margin-top: 5px;
 }
 .s2b2 {
-  width: 230px;
+  width: 20%;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
 .s2b3 {
-  width: 220px;
+  width: 20%;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
 .s2b4 {
-  width: 220px;
+  width: 20%;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
   text-align: center;
 }
 .s2b5 {
-  width: 220px;
+  width: 20%;
   height: 250px;
   border: 1px solid;
   border-radius: 10px;
@@ -168,5 +170,5 @@ section {
 }
 
 .footb4 {
-  flex-wrap: wrap
+  flex-wrap: wrap;
 }
