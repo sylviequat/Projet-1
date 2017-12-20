@@ -166,3 +166,7 @@ section {
 .footer a:hover {
   border-bottom: 1px solid black;
 }
+
+.footb4 {
+  flex-wrap: wrap
+}
